@@ -4,7 +4,7 @@
       "name": "openstack_basic_vm",
       "display_name": "OpenStack-Basics-VM-Setup",
       "description": "Create vSphere VM",
-      "plugin_dependencies": ["openstack"]
+      "plugin_dependencies": ["cloudify-openstack-plugin"]
       "versions": [
         {
           "version": "25.09.1.0",
