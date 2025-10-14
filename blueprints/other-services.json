@@ -1,0 +1,14 @@
+[
+    {
+        "id": "openstack_basic_vm",
+        "name": "OpenStack-Basics-VM-Setup",
+        "description": "Create vSphere VM",
+        "html_url": "https://github.com/ssrivast21/marketplace/tree/main/blueprints/openstack/vm",
+        "zip_url": "https://github.com/ssrivast21/marketplace/tree/main/blueprints/openstack/openstack_basic_vm.zip",
+        "readme_url": "https://github.com/ssrivast21/marketplace/blob/main/blueprints/openstack/vm/README.md",
+        "main_blueprint": "blueprint.yaml",
+        "image_url": "https://github.com/ssrivast21/marketplace/blob/main/blueprints/openstack/vm/logo.png",
+        "crated_at": "2023-05-30T10:01:48Z",
+        "updated_at": "2023-05-30T10:01:48Z"
+    },
+]
