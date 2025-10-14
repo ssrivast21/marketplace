@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    {
+      "name": "openstack_basic_vm",
+      "display_name": "OpenStack-Basics-VM-Setup",
+      "description": "Create vSphere VM",
+      "versions": [
+        {
+          "version": "25.09.1.0",
+          "html_url": "https://github.com/ssrivast21/marketplace/tree/main/blueprints/openstack/vm",
+          "zip_url": "https://github.com/ssrivast21/marketplace/tree/main/plugins/openstack/release/3.3.9/openstack_basic_vm.zip",
+         "readme_url": "https://github.com/ssrivast21/marketplace/tree/main/blueprints/openstack/vm/README.md",
+         "main_blueprint": "blueprint.yaml",
+         "image_url": "https://raw.githubusercontent.com/cloudify-community/cloudify-catalog/7.0.0-build/tabs/other/openstack/vm/logo.png",
+        }
+      ]
+    }
+  ]
+}
