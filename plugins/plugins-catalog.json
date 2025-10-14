@@ -1,19 +1,24 @@
 {
-  "plugins": [
-    {
-      "name": "openstack_basic_vm",
-      "display_name": "OpenStack-Basics-VM-Setup",
-      "description": "Create vSphere VM",
-      "versions": [
-        {
-          "version": "25.09.1.0",
-          "html_url": "https://github.com/ssrivast21/marketplace/tree/main/blueprints/openstack/vm",
-          "zip_url": "https://github.com/ssrivast21/marketplace/tree/main/plugins/openstack/release/3.3.9/openstack_basic_vm.zip",
-         "readme_url": "https://github.com/ssrivast21/marketplace/tree/main/blueprints/openstack/vm/README.md",
-         "main_blueprint": "blueprint.yaml",
-         "image_url": "https://raw.githubusercontent.com/cloudify-community/cloudify-catalog/7.0.0-build/tabs/other/openstack/vm/logo.png",
-        }
-      ]
-    }
-  ]
+	"plugins": [
+		{
+			"name": "cloudify-openstack-plugin",
+			"display_name": "OpenStack v3",
+			"description": "A Cloudify Plugin that provisions resources in OpenStack using the OpenStack SDK. Note, this plugin is not compatible with the OpenStack plugin.",
+			"logo_url": "https://cloudify.co/wp-content/uploads/2019/08/oslogo.png",
+			"versions": [
+				{
+					"version": "25.09.1.0",
+					"wr_release": "25.09",
+					"plugin_yaml_url": "https://github.com/ssrivast21/marketplace/blob/main/plugins/openstack/release/3.3.9/plugin.yaml",
+					"wagon_url": "https://github.com/ssrivast21/marketplace/blob/main/plugins/openstack/release/3.3.9/cloudify_openstack_plugin-3.3.9-manylinux-py311-none-linux_x86_64.wgn",
+					"supported_conductor_versions": [
+						"25.09",
+						"26.03"
+					],
+					"release_date": "2025-09-15",
+					"status": "stable"
+				}
+			]
+		}
+	]
 }
