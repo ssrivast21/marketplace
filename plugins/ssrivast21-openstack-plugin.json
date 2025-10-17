@@ -1,0 +1,34 @@
+{
+  "pagination": {"size": 100, "offset": 0, "total": 1},
+  "items":[
+  {
+    "name": "ssrivast21-openstack-plugin",
+    "display_name": "Custom OpenStack v3",
+    "description": "A Cloudify Plugin that provision resources in OpenStack using the OpenStack SDK. Note, this plugin is not compatible with the OpenStack plugin.",
+    "logo_url": "https://cloudify.co/wp-content/uploads/2019/08/oslogo.png",
+    "version": "3.3.9",
+    "yaml_urls": [
+      {
+        "dsl_version": "cloudify_dsl_1_3",
+        "url": "https://github.com/ssrivast21/marketplace/releases/download/3.3.9/plugin.yaml"
+      },
+      {
+        "dsl_version": "cloudify_dsl_1_4",
+        "url": "https://github.com/ssrivast21/marketplace/releases/download/3.3.9/plugin_1_4.yaml"
+      },
+      {
+        "dsl_version": "cloudify_dsl_1_5",
+        "url": "https://github.com/ssrivast21/marketplace/releases/download/3.3.9/plugin_1_5.yaml"
+      }
+    ],
+    "wagon_urls": [
+      {
+        "release": "manylinux",
+        "arch": "x86_64",
+        "url": "https://github.com/ssrivast21/marketplace/releases/download/3.3.9/cloudify_openstack_plugin-3.3.9-manylinux-py311-none-linux_x86_64.wgn",
+        "file_size": 77145700
+      }
+    ]
+  } 
+]
+}
