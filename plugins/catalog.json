@@ -23,7 +23,7 @@
 			{
 				"release": "manylinux",
 				"arch": "x86_64",
-				"url": "https://github.com/ssrivast21/marketplace/releases/download/cloudify-openstack-plugin-26.03/cloudify_openstack_plugin-3.3.9-manylinux-py311-none-linux_x86_64.wgn",
+				"url": "https://github.com/ssrivast21/marketplace/releases/download/cloudify-openstack-plugin-26.03/suyash_openstack_plugin-3.3.9-py311-none-linux_x86_64.wgn",
 				"file_size": 77145700
 			}
 		]
